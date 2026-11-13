@@ -7,6 +7,17 @@ Autor: AMLosa
 
 Fecha: 15/10/2026
 
+## Instrucciones de Compilación y Ejecución
+
+Para poder evaluar el juego, sigue estos pasos desde la terminal ubicándote en la raíz del proyecto:
+
+1. **Crear el directorio para los binarios (si no existe):**
+mkdir bin
+
+javac -d bin src/JuegoFutbol.java
+
+java -cp bin JuegoFutbol
+
 ## Cómo se juega
 
     1. Empieza el juego con un menú en el que debes elegir una de las cinco opciones.
